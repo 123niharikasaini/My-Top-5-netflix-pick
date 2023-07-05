@@ -1,13 +1,89 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.head{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(232, 90, 90);
+  background: aliceblue;
+}
+
+.line{
+  width: 100%;
+  
+}
+
+.subHead{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border: 2px solid ;
+margin: 10px;
+padding: 3px;
+background: aliceblue;
+text-align: center;
+
+}
+.olList{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+
+
+.imgSection{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  background: aliceblue;
+  /* for making the element lie in center */
+  align-items: center; 
+
+}
+.imgSection a{
+ margin: 10px;
+ text-align: center;
+ text-decoration: none;
+ color: black;
+}
+.imgSection img{
+  margin: 10px;
+}
+
+/* responsiveness */
+
+
+
+@media screen and (min-width: 100px){
+  /* For tablets: */
+  .olList{grid-template-columns: 75%;}
+  .imgSection{margin: 1px;}
+  .imgSection a{
+    margin: 1px;
+    font-size: smaller;
+   }
+   .imgSection img{
+     margin: 1px;
+     height: 50px;
+     width:50px;
+   }
+}
+
+@media screen and (min-width: 768px){
+  /* for desktop */
+  .olList{grid-template-columns: 30% 30% 30%;}
+  .imgSection{margin: 1px;}
+  .imgSection a{
+    margin: 5px;
+    font-size: medium;
+   }
+   .imgSection img{
+     margin: 5px;
+   }
 }
