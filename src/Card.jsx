@@ -18,7 +18,7 @@ import "./index.css";
     return (<>
         <div className="card">
             <div className="title">{props.title}</div>
-            <div className="img"><img src={props.imgsrc}/></div>
+            <div className="img"><img src={props.imgsrc} alt="img"/></div>
             <div className="watch"><a href={props.link} target="_blank"><button>Watch Now</button></a></div>
         </div>
         </>

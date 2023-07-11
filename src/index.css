@@ -151,3 +151,12 @@ text-align: center;
 
   .card .watch button{padding: 10px; }
 }
+
+
+.footer{
+  background: aliceblue;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+  color: rgb(232, 90, 90)
+}
