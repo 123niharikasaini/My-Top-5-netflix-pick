@@ -95,9 +95,9 @@ text-align: center;
 }
 
 .card .img img{
- height: 200px;
- /* width: 200px; */
-
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
 }
 
 .card .watch{
@@ -140,7 +140,7 @@ text-align: center;
 
   .card .title{font-size: large;font-weight: 700;}
 
-  .card .img img{height: 75px;width: 75px;}
+  .card .img img{height: 250px;width: 100%; object-fit: cover;}
 
   .card .watch button{padding: 5px; }
 }
@@ -151,7 +151,11 @@ text-align: center;
   
   .card .title{font-size: x-large;font-weight: 700;}
 
-  .card .img img{height: 200px;width: 200px;}
+  .card .img img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
 
   .card .watch button{padding: 10px; }
 }
