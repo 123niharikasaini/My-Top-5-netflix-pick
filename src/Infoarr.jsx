@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 let arr=[
     {
@@ -102,7 +102,7 @@ let arr=[
     {
         id: 15,
         title: "Sh**ting Stars",
-        imgsrc: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_KlW-Z-1sw8ceA0bdzM42u2kd8myt93w5Dp33ia3AO61298nG",
+        imgsrc: "https://koreanbinge.files.wordpress.com/2022/05/shootingstarstvn.jpg",
         link: 'https://www.netflix.com/in/title/81604431'
     }
 ];
