@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Top-netflix-series-pick/static/css/main.51e7ab9e.css",
-    "main.js": "/Top-netflix-series-pick/static/js/main.7334c761.js",
+    "main.css": "/Top-netflix-series-pick/static/css/main.6aed69a6.css",
+    "main.js": "/Top-netflix-series-pick/static/js/main.b408d300.js",
     "index.html": "/Top-netflix-series-pick/index.html",
-    "main.51e7ab9e.css.map": "/Top-netflix-series-pick/static/css/main.51e7ab9e.css.map",
-    "main.7334c761.js.map": "/Top-netflix-series-pick/static/js/main.7334c761.js.map"
+    "main.6aed69a6.css.map": "/Top-netflix-series-pick/static/css/main.6aed69a6.css.map",
+    "main.b408d300.js.map": "/Top-netflix-series-pick/static/js/main.b408d300.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e7ab9e.css",
-    "static/js/main.7334c761.js"
+    "static/css/main.6aed69a6.css",
+    "static/js/main.b408d300.js"
   ]
 }
