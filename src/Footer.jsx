@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer=()=>{
     // for copywrite sign
-    return (<p>Copyright &copy; 2023 niharikasaini</p>);
+    return (<div className="footer"><p>&copy; 2023 niharikasaini. All rights reserved</p></div>);
 }
 
 export default Footer;
