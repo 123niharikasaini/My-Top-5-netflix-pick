@@ -1,10 +1,19 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* height: 100%; */
 }
 body{
   background: black;
+  
+  /* min-height: 100%; */
+  /* position: relative; */
 }
 
 .head{
@@ -114,11 +123,31 @@ text-align: center;
 }
 .card .watch button:hover{
   background-color: aliceblue;
-  color: rgb(232, 90, 90);
+  color: rgb(249, 166, 166);
 }
 
-
-
+.form{
+  text-align: center;
+  margin: 1rem;
+  /* padding: 1rem; */
+}
+.form select{
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.6rem;
+  border-bottom-style: groove;
+  box-shadow: 4px 4px 5px 2px grey;
+  font-weight: 600;
+}
+/* .form button{
+  padding: 0.8rem;
+  margin: 1rem;
+  font-weight: 500;
+  border-radius: 0.6rem;
+  border-bottom-style: groove;
+  box-shadow: 4px 4px 5px 2px grey;
+  cursor: ;
+} */
 
 
 /* responsiveness */
@@ -167,5 +196,9 @@ text-align: center;
   padding: 10px;
   text-align: center;
   font-size: large;
-  color: rgb(232, 90, 90)
+  color: rgb(232, 90, 90);
+  margin-top: auto;
+  /* position: relative;
+  width: 100%;
+  bottom: 0; */
 }
